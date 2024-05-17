@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(229, 229, 229);
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+/* STYLE POUR LE FORMULAURE */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+label{
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 20px;
+    height: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px 50px 5px;
+}
+a:hover{
+    color: blue;
+}
+
+/* STYLE DE LA LISTE */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* STYLE DES BOUTONS */
+button {
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.button-add{
+    height: 30px;
+}
+.button-add:hover{
+    background-color: green;
+    color: white;
+}
+
+button.delete {
+    padding: 6px 12px;
+    margin-left: 30px;
+    border: none;
+
+}
+button.delete:hover{
+    background: red;
+    color: white;
+}
